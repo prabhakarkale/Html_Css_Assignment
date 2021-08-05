@@ -1,242 +1,393 @@
-/* -------------------------------------- Header section */
-
-.header {
-    background-image: url('../images/hero_image.png');
-    background-size: contain;
-    height: 405px;
-    background-repeat: no-repeat;
-}
-
-.header_content {
-    width: 100%;
-    height: 80px;
-}
-
-.header_content .logo {
-    height: 96px;
-    width: 124px;
-    padding: 20px 0 0 78px;
-    float: left;
-}
-
-
-/* navigation */
-
-nav ul {
-    float: right;
-    margin-right: 20px;
-}
-
-nav ul li {
-    display: inline-block;
-    margin-right: 100px;
-    margin-top: 43px;
-    width: 68px;
-    height: 27px;
-    font-size: 22px;
-    font: normal normal normal 22px/27px Montserrat;
-    text-align: center;
-    letter-spacing: 0px;
-    color: #FFFFFF;
-    opacity: 1;
-}
-
-
-/* Say Hello btn  */
-
-.say-hello {
-    background-color: white;
-    width: 150px;
-    height: 35px;
-    color: #3693D6;
-    text-align: center;
-    font-size: 22px;
-    font: normal normal normal 22px/27px Montserrat;
-    letter-spacing: 0px;
-    opacity: 1;
-    border-radius: 50px;
-    padding-top: 10px;
-}
-
-.btn-our-work {
-    margin-top: 227px;
-    margin-left: 1202px;
-    width: 235px;
-    height: 68px;
-    background: #3693D6 0% 0% no-repeat padding-box;
-    border-radius: 34px;
-    opacity: 1;
-}
-
-.btn-our-work p {
-    text-align: center;
-    font: normal normal normal 25px/30px Montserrat;
-    letter-spacing: 0px;
-    color: #FFFFFF;
-    opacity: 1;
-    padding-top: 20px;
-}
-
-
-/* -------------------------------------- Abuout Me Section */
-
-.about-me {
-    height: auto;
-    background: #3693D6 0% 0% no-repeat padding-box;
-    background-size: contain;
-    opacity: 1;
-    margin-top: 0px;
-}
-
-.about-me div {
-    padding-top: 100px;
-    text-align: center;
-    font-size: 52px;
-    font-family: Montserrat;
-    color: #FFFFFF;
-    opacity: 1;
-}
-
-.about-text {
-    text-align: center;
-    font: normal normal normal 42px/60px Montserrat;
-    letter-spacing: 0px;
-    color: #FFFFFF;
-    opacity: 1;
-    padding-bottom: 70px;
-}
-
-
-/* ------------------------------------------- Our Work section */
-
-.our-work {
-    height: auto;
-    background: #FFFFFF 0% 0% no-repeat padding-box;
-    background-size: contain;
-    opacity: 1;
-    margin-top: 0px;
-}
-
-.our-work div {
-    padding-top: 100px;
-    text-align: center;
-    font-size: 52px;
-    font-family: Montserrat;
-    color: #3693D6;
-    opacity: 1;
-}
-
-.pictures {
-    /* border: 1px solid red; */
-}
-
-.pictures .our-work-image {
-    height: 392px;
-    width: 419px;
-}
-
-.max-length-image {
-    width: 849px;
-    height: 392px;
-}
-
-
-/* -------------------------------------------------- Testimonial section */
-
-.testimonial {
-    height: auto;
-    background: #FFFFFF 0% 0% no-repeat padding-box;
-    background-size: contain;
-    opacity: 1;
-    margin-top: 0px;
-}
-
-.testimonial .testimonial-heading {
-    padding-top: 100px;
-    text-align: center;
-    font-size: 52px;
-    font-family: Montserrat;
-    color: #3693D6;
-    opacity: 1;
-}
-
-.testimonial .userprofile {
-    text-align: center;
-}
-
-.testimonial .userprofile .testimonial-image {
-    width: 265px;
-    height: 265px;
-    border-radius: 50%;
-    border: 1px solid green;
-    padding-top: 0px;
-}
-
-.testimonial .userprofile .user-name {
-    color: #3693D6;
-    font-size: 42px;
-    letter-spacing: 0px;
-    opacity: 1;
-    font: normal normal normal 42px/52px Montserrat;
-}
-
-.testimonial .userprofile .about-user {
-    padding-top: 40px;
-    color: #3693D6;
-    font-size: 32px;
-    letter-spacing: 0px;
-    opacity: 1;
-    font: normal normal normal 42px/52px Montserrat;
-}
-
-.userprofile .picture-dots {
-    padding: 77px 0px 138px 47%;
-}
-
-.userprofile .picture-dots div {
-    height: 26px;
-    width: 26px;
-    float: left;
-    margin-left: 13px;
-    border-radius: 50%;
-}
-
-.userprofile .picture-dots .selected {
-    background: #9BC0FF 0% 0% no-repeat padding-box;
-}
-
-.userprofile .picture-dots .unselected {
-    background: #E2E2E2 0% 0% no-repeat padding-box;
-}
-
-
-/* ------------------------ */
-
-.features {
-    background: #3693D6;
-    opacity: 1;
-    border: 2px solid #008000;
-    height: 500px;
-}
-
-.features div {
-    margin-left: 200px;
-}
-
-.features .feature {
-    width: 220px;
-    height: 380px;
-    float: left;
-    background-color: #FFF;
-    border-radius: 5px;
-    margin: 15px;
-}
-
-.features .arrow {
-    width: 15 0px;
-    height: 380px;
-    border: 1px solid red;
-    float: left;
-    border-radius: 5px;
-    margin: 5px
-}
+    .container {}
+    /* -------------------------------------- Header section */
+    
+    .header {
+        background-image: url('../images/hero_image.png');
+        background-size: contain;
+        height: 405px;
+        background-repeat: no-repeat;
+    }
+    
+    .header_content {
+        width: 100%;
+        height: 80px;
+    }
+    
+    .header_content .logo {
+        height: 96px;
+        width: 124px;
+        padding: 20px 0 0 78px;
+        float: left;
+    }
+    /* navigation */
+    
+    nav ul {
+        float: right;
+        margin-right: 20px;
+    }
+    
+    nav ul li {
+        display: inline-block;
+        margin-right: 100px;
+        margin-top: 43px;
+        width: 68px;
+        height: 27px;
+        font-size: 22px;
+        font: normal normal normal 22px/27px Montserrat;
+        text-align: center;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        opacity: 1;
+    }
+    /* Say Hello btn  */
+    
+    .say-hello {
+        background-color: white;
+        width: 150px;
+        height: 35px;
+        color: #3693D6;
+        text-align: center;
+        font-size: 22px;
+        font: normal normal normal 22px/27px Montserrat;
+        letter-spacing: 0px;
+        opacity: 1;
+        border-radius: 50px;
+        padding-top: 10px;
+    }
+    
+    .btn-our-work {
+        margin-top: 227px;
+        margin-left: 1202px;
+        width: 235px;
+        height: 68px;
+        background: #3693D6 0% 0% no-repeat padding-box;
+        border-radius: 34px;
+        opacity: 1;
+    }
+    
+    .btn-our-work p {
+        text-align: center;
+        font: normal normal normal 25px/30px Montserrat;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        opacity: 1;
+        padding-top: 20px;
+    }
+    /* -------------------------------------- Abuout Me Section */
+    
+    .about-me {
+        height: auto;
+        background: #3693D6 0% 0% no-repeat padding-box;
+        background-size: contain;
+        opacity: 1;
+        margin-top: 0px;
+    }
+    
+    .about-me div {
+        padding-top: 100px;
+        text-align: center;
+        font-size: 52px;
+        font-family: Montserrat;
+        color: #FFFFFF;
+        opacity: 1;
+    }
+    
+    .about-text {
+        text-align: center;
+        font: normal normal normal 42px/60px Montserrat;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        opacity: 1;
+        padding-bottom: 70px;
+    }
+    /* ------------------------------------------- Our Work section */
+    
+    .our-work {
+        height: auto;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        background-size: contain;
+        opacity: 1;
+        margin-top: 0px;
+    }
+    
+    .our-work div {
+        padding-top: 100px;
+        text-align: center;
+        font-size: 52px;
+        font-family: Montserrat;
+        color: #3693D6;
+        opacity: 1;
+    }
+    
+    .pictures {
+        /* border: 1px solid red; */
+    }
+    
+    .pictures .our-work-image {
+        height: 392px;
+        width: 419px;
+    }
+    
+    .max-length-image {
+        width: 849px;
+        height: 392px;
+    }
+    /* -------------------------------------------------- Testimonial section */
+    
+    .testimonial {
+        height: auto;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        background-size: contain;
+        opacity: 1;
+        margin-top: 0px;
+    }
+    
+    .testimonial .testimonial-heading {
+        padding-top: 100px;
+        text-align: center;
+        font-size: 52px;
+        font-family: Montserrat;
+        color: #3693D6;
+        opacity: 1;
+    }
+    
+    .testimonial .userprofile {
+        text-align: center;
+    }
+    
+    .testimonial .userprofile .testimonial-image {
+        width: 265px;
+        height: 265px;
+        border-radius: 50%;
+        border: 1px solid green;
+        padding-top: 0px;
+    }
+    
+    .testimonial .userprofile .user-name {
+        color: #3693D6;
+        font-size: 42px;
+        letter-spacing: 0px;
+        opacity: 1;
+        font: normal normal normal 42px/52px Montserrat;
+    }
+    
+    .testimonial .userprofile .about-user {
+        padding-top: 40px;
+        color: #3693D6;
+        font-size: 32px;
+        letter-spacing: 0px;
+        opacity: 1;
+        font: normal normal normal 42px/52px Montserrat;
+    }
+    
+    .userprofile .picture-dots {
+        padding: 77px 0px 138px 47%;
+    }
+    
+    .userprofile .picture-dots div {
+        height: 26px;
+        width: 26px;
+        float: left;
+        margin-left: 13px;
+        border-radius: 50%;
+    }
+    
+    .userprofile .picture-dots .selected {
+        background: #9BC0FF 0% 0% no-repeat padding-box;
+    }
+    
+    .userprofile .picture-dots .unselected {
+        background: #E2E2E2 0% 0% no-repeat padding-box;
+    }
+    /* ------------------------ */
+    
+    .features-info {
+        background: #3693D6;
+        opacity: 1;
+        height: 490px;
+        padding-top: 50px;
+    }
+    
+    .features-info .features {
+        margin-left: 100px;
+    }
+    
+    .features .feature {
+        width: 220px;
+        height: 380px;
+        float: left;
+        background-color: #FFF;
+        border-radius: 5px;
+        margin: 15px;
+        border: 1px solid red;
+    }
+    
+    .features .feature img {
+        height: 90px;
+        width: auto;
+        padding-top: 40px;
+        padding-left: 50px;
+    }
+    
+    .features .feature-title {
+        text-align: center;
+        padding-top: 20px;
+        font: normal normal bold 30px/63px Lato;
+        letter-spacing: 0px;
+        color: #29313E;
+    }
+    
+    .features .feature-desc {
+        text-align: center;
+        font: normal normal normal 20px/29px Lato;
+        letter-spacing: 0px;
+        color: #29313E;
+    }
+    
+    .features .fecture-read-more {
+        text-align: center;
+        font: normal normal normal 24px/29px Lato;
+        letter-spacing: 0px;
+        color: #0098da;
+    }
+    
+    .features .arrow {
+        width: 120px;
+        height: 380px;
+        float: left;
+    }
+    
+    .features .arrow img {
+        padding-top: 185px;
+    }
+    
+    .featuers .arrow-previous {
+        padding-right: 30px;
+        margin-right: 30px;
+    }
+    
+    .features .arrow-previous img {
+        transform: scaleX(-1);
+        ;
+    }
+    
+    .features .arrow-next {
+        padding-left: 90px;
+    }
+    /* --------------------------------- Send Message */
+    
+    .send-msg {
+        height: auto;
+        background: #FFFFFF;
+        opacity: 1;
+        height: 500px;
+        margin-bottom: 50px;
+    }
+    
+    .send-msg .form {
+        width: 1150px;
+        margin: 90px 230px;
+    }
+    
+    .form .form-caption {
+        font-size: 40px;
+        font: normal normal normal 40px/50px Montserrat;
+        letter-spacing: 0px;
+        color: #151D41;
+        opacity: 1;
+        margin-bottom: 20px;
+    }
+    
+    .form .form-feilds {
+        float: left;
+        width: 49%;
+        height: 50px auto;
+    }
+    
+    .form-feilds input {
+        width: 500px;
+        margin: 15px;
+        margin: 20px 0px;
+        border-radius: 5px;
+        height: 40px;
+    }
+    
+    .form-feilds input[placeholder] {
+        padding-left: 15px;
+        font-size: 18px;
+    }
+    
+    .form-feilds .btn-send {
+        width: 296px;
+        height: 68px;
+        border-radius: 40px;
+        background: #3693D6;
+        opacity: 1;
+        font: normal normal normal 25px/30px Montserrat;
+        letter-spacing: 0px;
+        margin-top: 60px;
+        color: #FFFFFF;
+        border: none;
+    }
+    
+    .form-feilds .message-field {
+        height: 215px;
+    }
+    /*------------------------------- footer section  */
+    
+    .footer {
+        background: #3693D6;
+        color: #FFFFFF;
+        height: 265px;
+    }
+    
+    .footer div {
+        float: left;
+    }
+    
+    .footer .title {
+        font-size: 32px;
+    }
+    
+    .footer .title-desc {
+        font-size: 22px;
+        margin-top: 20px;
+    }
+    /* footer logo */
+    
+    .footer .footer-logo {
+        width: 300px;
+    }
+    
+    .footer .footer-logo img {
+        width: 122px;
+        height: 58px;
+        padding: 100px 100px 100px 90px;
+    }
+    /* location */
+    
+    .footer .footer-info {
+        width: 250px;
+        padding-top: 50px;
+    }
+    /* social-network */
+    
+    .social-network {}
+    
+    .social-network .fb-icon {
+        height: 20px;
+        width: 40px;
+        padding: 100px 5px 0px 120px;
+    }
+    
+    .social-network .insta-icon {
+        height: 20px;
+        width: 40px;
+        padding: 100px 5px 0px 20px;
+    }
+    
+    .social-network .youtube-icon {
+        height: 20px;
+        width: 40px;
+        padding: 100px 5px 0px 20px;
+    }
