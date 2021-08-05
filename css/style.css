@@ -50,7 +50,7 @@ nav ul li {
     padding-top: 10px;
 }
 
-.our-work {
+.btn-our-work {
     margin-top: 227px;
     margin-left: 1202px;
     width: 235px;
@@ -60,7 +60,7 @@ nav ul li {
     opacity: 1;
 }
 
-.our-work p {
+.btn-our-work p {
     text-align: center;
     font: normal normal normal 25px/30px Montserrat;
     letter-spacing: 0px;
@@ -93,4 +93,104 @@ nav ul li {
     color: #FFFFFF;
     opacity: 1;
     padding-bottom: 70px;
+}
+
+.our-work {
+    height: auto;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    background-size: contain;
+    opacity: 1;
+    margin-top: 0px;
+}
+
+.our-work div {
+    padding-top: 100px;
+    text-align: center;
+    font-size: 52px;
+    font-family: Montserrat;
+    color: #3693D6;
+    opacity: 1;
+}
+
+.pictures {
+    /* border: 1px solid red; */
+}
+
+.pictures .our-work-image {
+    height: 392px;
+    width: 419px;
+}
+
+.max-length-image {
+    width: 849px;
+    height: 392px;
+}
+
+.testimonial {
+    height: auto;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    background-size: contain;
+    opacity: 1;
+    margin-top: 0px;
+}
+
+.testimonial .testimonial-heading {
+    padding-top: 100px;
+    text-align: center;
+    font-size: 52px;
+    font-family: Montserrat;
+    color: #3693D6;
+    opacity: 1;
+}
+
+.testimonial .userprofile {
+    text-align: center;
+}
+
+.testimonial .userprofile .testimonial-image {
+    width: 265px;
+    height: 265px;
+    border-radius: 50%;
+    border: 1px solid green;
+    padding-top: 0px;
+}
+
+.testimonial .userprofile .user-name {
+    color: #3693D6;
+    font-size: 42px;
+    letter-spacing: 0px;
+    opacity: 1;
+    font: normal normal normal 42px/52px Montserrat;
+}
+
+.testimonial .userprofile .about-user {
+    padding-top: 40px;
+    color: #3693D6;
+    font-size: 32px;
+    letter-spacing: 0px;
+    opacity: 1;
+    font: normal normal normal 42px/52px Montserrat;
+}
+
+
+/* .testimonial .user-dots {
+    padding-top: 30px;
+    text-align: center;
+}
+
+.testimonial .user-dots div {
+    width: 26px;
+    height: 26px;
+    background-color: gray;
+    margin: 5px;
+    border-radius: 50%;
+    opacity: 1;
+} */
+
+.testimonial .userprofile .dots {
+    width: 265px;
+    height: 265px;
+    border-radius: 50%;
+    border: 1px solid green;
+    padding-top: 0px;
 }
