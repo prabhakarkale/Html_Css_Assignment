@@ -1,3 +1,5 @@
+/* -------------------------------------- Header section */
+
 .header {
     background-image: url('../images/hero_image.png');
     background-size: contain;
@@ -17,6 +19,9 @@
     float: left;
 }
 
+
+/* navigation */
+
 nav ul {
     float: right;
     margin-right: 20px;
@@ -35,6 +40,9 @@ nav ul li {
     color: #FFFFFF;
     opacity: 1;
 }
+
+
+/* Say Hello btn  */
 
 .say-hello {
     background-color: white;
@@ -69,6 +77,9 @@ nav ul li {
     padding-top: 20px;
 }
 
+
+/* -------------------------------------- Abuout Me Section */
+
 .about-me {
     height: auto;
     background: #3693D6 0% 0% no-repeat padding-box;
@@ -94,6 +105,9 @@ nav ul li {
     opacity: 1;
     padding-bottom: 70px;
 }
+
+
+/* ------------------------------------------- Our Work section */
 
 .our-work {
     height: auto;
@@ -125,6 +139,9 @@ nav ul li {
     width: 849px;
     height: 392px;
 }
+
+
+/* -------------------------------------------------- Testimonial section */
 
 .testimonial {
     height: auto;
@@ -172,25 +189,54 @@ nav ul li {
     font: normal normal normal 42px/52px Montserrat;
 }
 
-
-/* .testimonial .user-dots {
-    padding-top: 30px;
-    text-align: center;
+.userprofile .picture-dots {
+    padding: 77px 0px 138px 47%;
 }
 
-.testimonial .user-dots div {
-    width: 26px;
+.userprofile .picture-dots div {
     height: 26px;
-    background-color: gray;
-    margin: 5px;
+    width: 26px;
+    float: left;
+    margin-left: 13px;
     border-radius: 50%;
-    opacity: 1;
-} */
+}
 
-.testimonial .userprofile .dots {
-    width: 265px;
-    height: 265px;
-    border-radius: 50%;
-    border: 1px solid green;
-    padding-top: 0px;
+.userprofile .picture-dots .selected {
+    background: #9BC0FF 0% 0% no-repeat padding-box;
+}
+
+.userprofile .picture-dots .unselected {
+    background: #E2E2E2 0% 0% no-repeat padding-box;
+}
+
+
+/* ------------------------ */
+
+.features {
+    background: #3693D6;
+    opacity: 1;
+    border: 2px solid #008000;
+    height: 500px;
+}
+
+.features div {
+    margin-left: 200px;
+}
+
+.features .feature {
+    width: 220px;
+    height: 380px;
+    float: left;
+    background-color: #FFF;
+    border-radius: 5px;
+    margin: 15px;
+}
+
+.features .arrow {
+    width: 15 0px;
+    height: 380px;
+    border: 1px solid red;
+    float: left;
+    border-radius: 5px;
+    margin: 5px
 }
