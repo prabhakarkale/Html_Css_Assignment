@@ -1,393 +1,398 @@
-    .container {}
-    /* -------------------------------------- Header section */
-    
-    .header {
-        background-image: url('../images/hero_image.png');
-        background-size: contain;
-        height: 405px;
-        background-repeat: no-repeat;
-    }
-    
-    .header_content {
-        width: 100%;
-        height: 80px;
-    }
-    
-    .header_content .logo {
-        height: 96px;
-        width: 124px;
-        padding: 20px 0 0 78px;
-        float: left;
-    }
-    /* navigation */
-    
-    nav ul {
-        float: right;
-        margin-right: 20px;
-    }
-    
-    nav ul li {
-        display: inline-block;
-        margin-right: 100px;
-        margin-top: 43px;
-        width: 68px;
-        height: 27px;
-        font-size: 22px;
-        font: normal normal normal 22px/27px Montserrat;
-        text-align: center;
-        letter-spacing: 0px;
-        color: #FFFFFF;
-        opacity: 1;
-    }
-    /* Say Hello btn  */
-    
-    .say-hello {
-        background-color: white;
-        width: 150px;
-        height: 35px;
-        color: #3693D6;
-        text-align: center;
-        font-size: 22px;
-        font: normal normal normal 22px/27px Montserrat;
-        letter-spacing: 0px;
-        opacity: 1;
-        border-radius: 50px;
-        padding-top: 10px;
-    }
-    
-    .btn-our-work {
-        margin-top: 227px;
-        margin-left: 1202px;
-        width: 235px;
-        height: 68px;
-        background: #3693D6 0% 0% no-repeat padding-box;
-        border-radius: 34px;
-        opacity: 1;
-    }
-    
-    .btn-our-work p {
-        text-align: center;
-        font: normal normal normal 25px/30px Montserrat;
-        letter-spacing: 0px;
-        color: #FFFFFF;
-        opacity: 1;
-        padding-top: 20px;
-    }
-    /* -------------------------------------- Abuout Me Section */
-    
-    .about-me {
-        height: auto;
-        background: #3693D6 0% 0% no-repeat padding-box;
-        background-size: contain;
-        opacity: 1;
-        margin-top: 0px;
-    }
-    
-    .about-me div {
-        padding-top: 100px;
-        text-align: center;
-        font-size: 52px;
-        font-family: Montserrat;
-        color: #FFFFFF;
-        opacity: 1;
-    }
-    
-    .about-text {
-        text-align: center;
-        font: normal normal normal 42px/60px Montserrat;
-        letter-spacing: 0px;
-        color: #FFFFFF;
-        opacity: 1;
-        padding-bottom: 70px;
-    }
-    /* ------------------------------------------- Our Work section */
-    
-    .our-work {
-        height: auto;
-        background: #FFFFFF 0% 0% no-repeat padding-box;
-        background-size: contain;
-        opacity: 1;
-        margin-top: 0px;
-    }
-    
-    .our-work div {
-        padding-top: 100px;
-        text-align: center;
-        font-size: 52px;
-        font-family: Montserrat;
-        color: #3693D6;
-        opacity: 1;
-    }
-    
-    .pictures {
-        /* border: 1px solid red; */
-    }
-    
-    .pictures .our-work-image {
-        height: 392px;
-        width: 419px;
-    }
-    
-    .max-length-image {
-        width: 849px;
-        height: 392px;
-    }
-    /* -------------------------------------------------- Testimonial section */
-    
-    .testimonial {
-        height: auto;
-        background: #FFFFFF 0% 0% no-repeat padding-box;
-        background-size: contain;
-        opacity: 1;
-        margin-top: 0px;
-    }
-    
-    .testimonial .testimonial-heading {
-        padding-top: 100px;
-        text-align: center;
-        font-size: 52px;
-        font-family: Montserrat;
-        color: #3693D6;
-        opacity: 1;
-    }
-    
-    .testimonial .userprofile {
-        text-align: center;
-    }
-    
-    .testimonial .userprofile .testimonial-image {
-        width: 265px;
-        height: 265px;
-        border-radius: 50%;
-        border: 1px solid green;
-        padding-top: 0px;
-    }
-    
-    .testimonial .userprofile .user-name {
-        color: #3693D6;
-        font-size: 42px;
-        letter-spacing: 0px;
-        opacity: 1;
-        font: normal normal normal 42px/52px Montserrat;
-    }
-    
-    .testimonial .userprofile .about-user {
-        padding-top: 40px;
-        color: #3693D6;
-        font-size: 32px;
-        letter-spacing: 0px;
-        opacity: 1;
-        font: normal normal normal 42px/52px Montserrat;
-    }
-    
-    .userprofile .picture-dots {
-        padding: 77px 0px 138px 47%;
-    }
-    
-    .userprofile .picture-dots div {
-        height: 26px;
-        width: 26px;
-        float: left;
-        margin-left: 13px;
-        border-radius: 50%;
-    }
-    
-    .userprofile .picture-dots .selected {
-        background: #9BC0FF 0% 0% no-repeat padding-box;
-    }
-    
-    .userprofile .picture-dots .unselected {
-        background: #E2E2E2 0% 0% no-repeat padding-box;
-    }
-    /* ------------------------ */
-    
-    .features-info {
-        background: #3693D6;
-        opacity: 1;
-        height: 490px;
-        padding-top: 50px;
-    }
-    
-    .features-info .features {
-        margin-left: 100px;
-    }
-    
-    .features .feature {
-        width: 220px;
-        height: 380px;
-        float: left;
-        background-color: #FFF;
-        border-radius: 5px;
-        margin: 15px;
-        border: 1px solid red;
-    }
-    
-    .features .feature img {
-        height: 90px;
-        width: auto;
-        padding-top: 40px;
-        padding-left: 50px;
-    }
-    
-    .features .feature-title {
-        text-align: center;
-        padding-top: 20px;
-        font: normal normal bold 30px/63px Lato;
-        letter-spacing: 0px;
-        color: #29313E;
-    }
-    
-    .features .feature-desc {
-        text-align: center;
-        font: normal normal normal 20px/29px Lato;
-        letter-spacing: 0px;
-        color: #29313E;
-    }
-    
-    .features .fecture-read-more {
-        text-align: center;
-        font: normal normal normal 24px/29px Lato;
-        letter-spacing: 0px;
-        color: #0098da;
-    }
-    
-    .features .arrow {
-        width: 120px;
-        height: 380px;
-        float: left;
-    }
-    
-    .features .arrow img {
-        padding-top: 185px;
-    }
-    
-    .featuers .arrow-previous {
-        padding-right: 30px;
-        margin-right: 30px;
-    }
-    
-    .features .arrow-previous img {
-        transform: scaleX(-1);
-        ;
-    }
-    
-    .features .arrow-next {
-        padding-left: 90px;
-    }
-    /* --------------------------------- Send Message */
-    
-    .send-msg {
-        height: auto;
-        background: #FFFFFF;
-        opacity: 1;
-        height: 500px;
-        margin-bottom: 50px;
-    }
-    
-    .send-msg .form {
-        width: 1150px;
-        margin: 90px 230px;
-    }
-    
-    .form .form-caption {
-        font-size: 40px;
-        font: normal normal normal 40px/50px Montserrat;
-        letter-spacing: 0px;
-        color: #151D41;
-        opacity: 1;
-        margin-bottom: 20px;
-    }
-    
-    .form .form-feilds {
-        float: left;
-        width: 49%;
-        height: 50px auto;
-    }
-    
-    .form-feilds input {
-        width: 500px;
-        margin: 15px;
-        margin: 20px 0px;
-        border-radius: 5px;
-        height: 40px;
-    }
-    
-    .form-feilds input[placeholder] {
-        padding-left: 15px;
-        font-size: 18px;
-    }
-    
-    .form-feilds .btn-send {
-        width: 296px;
-        height: 68px;
-        border-radius: 40px;
-        background: #3693D6;
-        opacity: 1;
-        font: normal normal normal 25px/30px Montserrat;
-        letter-spacing: 0px;
-        margin-top: 60px;
-        color: #FFFFFF;
-        border: none;
-    }
-    
-    .form-feilds .message-field {
-        height: 215px;
-    }
-    /*------------------------------- footer section  */
-    
-    .footer {
-        background: #3693D6;
-        color: #FFFFFF;
-        height: 265px;
-    }
-    
-    .footer div {
-        float: left;
-    }
-    
-    .footer .title {
-        font-size: 32px;
-    }
-    
-    .footer .title-desc {
-        font-size: 22px;
-        margin-top: 20px;
-    }
-    /* footer logo */
-    
-    .footer .footer-logo {
-        width: 300px;
-    }
-    
-    .footer .footer-logo img {
-        width: 122px;
-        height: 58px;
-        padding: 100px 100px 100px 90px;
-    }
-    /* location */
-    
-    .footer .footer-info {
-        width: 250px;
-        padding-top: 50px;
-    }
-    /* social-network */
-    
-    .social-network {}
-    
-    .social-network .fb-icon {
-        height: 20px;
-        width: 40px;
-        padding: 100px 5px 0px 120px;
-    }
-    
-    .social-network .insta-icon {
-        height: 20px;
-        width: 40px;
-        padding: 100px 5px 0px 20px;
-    }
-    
-    .social-network .youtube-icon {
-        height: 20px;
-        width: 40px;
-        padding: 100px 5px 0px 20px;
-    }
+.container {
+    width: 100%;
+    margin: 0 auto;
+    /* height: 300px; */
+}
+
+.header {
+    background-image: url('../images/hero_image.png');
+    background-size: 100% 657px;
+    height: 657px;
+    background-repeat: no-repeat;
+}
+
+.header_content {
+    height: 96px;
+    /* width: 1759px; */
+    margin-left: 78px;
+    margin-right: 83px;
+}
+
+.header_content .logo {
+    height: 96px;
+    width: 124px;
+    float: left;
+    margin-top: 20px;
+}
+
+
+/* navigation */
+
+.navigation-div {
+    /* margin-left: 867px; */
+    margin-left: 400px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 128px;
+    margin-top: 43px;
+    font: normal normal normal 22px/27px Montserrat;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+/* Say Hello btn  */
+
+.say-hello {
+    background-color: #FFFFFF;
+    width: 199px;
+    height: 54px;
+    margin-left: 83px;
+    color: #3693D6;
+    font: normal normal normal 22px/27px Montserrat;
+    border-radius: 34px;
+    margin-top: 10px;
+    border: 2px solid #FFFFFF;
+}
+
+.btn-our-work {
+    margin-top: 430px;
+    margin-left: 1202px;
+    width: 235px;
+    height: 68px;
+    background: #3693D6 0% 0% no-repeat padding-box;
+    border-radius: 34px;
+}
+
+.btn-our-work p {
+    text-align: center;
+    font: normal normal normal 25px/30px Montserrat;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    padding-top: 20px;
+}
+
+
+/* -------------------------------------- Abuout Me Section */
+
+.about-me {
+    background: #3693D6 0% 0% no-repeat padding-box;
+    background-size: contain;
+    margin-top: 0px;
+    height: 563px;
+    border: 1px solid#3693D6;
+}
+
+.about-text {
+    text-align: center;
+    font: normal normal normal 42px/60px Montserrat;
+    color: #FFFFFF;
+}
+
+
+/* ------------------------------------------- Our Work section */
+
+.pictures {
+    padding-top: 108px;
+    text-align: center;
+}
+
+.pictures .our-work-image {
+    height: 392px;
+    width: 419px;
+}
+
+.max-length-image {
+    width: 849px;
+    height: 392px;
+}
+
+
+/* -------------------------------------------------- Testimonial section */
+
+.userprofile {
+    text-align: center;
+}
+
+.profile-image {
+    width: 265px;
+    height: 265px;
+    border-radius: 50%;
+    text-align: center;
+    margin-top: 38px;
+}
+
+.userprofile .user-name {
+    font-size: 42px;
+    font: normal normal normal 42px/52px Montserrat;
+    margin-top: 34px;
+}
+
+.userprofile .about-user {
+    margin-top: 40px;
+    font: normal normal normal 32px/60px Montserrat;
+}
+
+.userprofile .picture-dots {
+    padding: 51px 0px 138px 47%;
+}
+
+.userprofile .picture-dots div {
+    height: 26px;
+    width: 26px;
+    float: left;
+    margin-left: 13px;
+    border-radius: 50%;
+}
+
+.userprofile .picture-dots .selected {
+    background: #9BC0FF 0% 0% no-repeat padding-box;
+}
+
+.userprofile .picture-dots .unselected {
+    background: #E2E2E2 0% 0% no-repeat padding-box;
+}
+
+
+/* ------------------------ Features section */
+
+.features-info {
+    background: #3693D6;
+    height: 754px;
+    margin-top: 138px;
+    padding-top: 100px;
+}
+
+.features .arrow {
+    width: 21.47px;
+    height: 32.33px;
+    float: left;
+    background-image: url('../images/arrow.png');
+    border: 1px solid red;
+    margin-top: 361px;
+    margin-right: 93.53px;
+}
+
+.features .arrow img {
+    padding-top: 185px;
+}
+
+.featuers .arrow-previous {
+    margin-right: 78px;
+}
+
+.features .arrow-previous img {
+    transform: scaleX(-1);
+}
+
+.features .arrow-next {
+    width: 21.47px;
+    height: 32.33px;
+    background-image: url('../images/arrow.png');
+    float: left;
+    margin-left: 87.88px;
+    margin-top: 361px;
+}
+
+.features-info .features {
+    margin-left: 100px;
+}
+
+.features .feature {
+    width: 336px;
+    height: 554px;
+    float: left;
+    background-color: #FFF;
+    border-radius: 5px;
+    margin-left: 60px;
+}
+
+.features .feature img {
+    height: 134px;
+    width: 176px;
+    margin-top: 77px;
+    margin-left: 79px;
+}
+
+.features .feature-title {
+    text-align: center;
+    margin-top: 55.91px;
+    font: normal normal bold 30px/63px Lato;
+    color: #29313E;
+}
+
+.features .feature-desc {
+    text-align: center;
+    margin-top: 27px;
+    margin-left: 20px;
+    margin-right: 19px;
+    height: 179px;
+    width: 297px;
+    font: normal normal normal 20px/29px Lato;
+    color: #29313E;
+}
+
+.features .fecture-read-more {
+    text-align: center;
+    font: normal normal normal 24px/29px Lato;
+    letter-spacing: 0px;
+    color: #0098da;
+}
+
+
+/* --------------------------------- Send Message */
+
+.send-msg {
+    background: #FFFFFF;
+    opacity: 1;
+    height: 552px;
+    width: 1280px;
+    margin-top: 90px;
+    margin-left: 170px;
+}
+
+.send-msg .form {
+    width: 1150px;
+}
+
+.form .form-caption {
+    font: normal normal normal 40px/50px Montserrat;
+    color: #151D41;
+    text-align: left;
+    margin-bottom: 55px;
+}
+
+.form input {
+    width: 620px;
+    margin: 15px;
+    margin-left: 0px;
+    margin-right: 40px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+    height: 60px;
+    border: 1px solid #151D41;
+}
+
+.message-field {
+    width: 620px;
+    height: 310px;
+    margin-bottom: 40px;
+    border: 1px solid #151D41;
+    border-radius: 5px;
+}
+
+.form input[placeholder],
+textarea[placeholder] {
+    padding-left: 30px;
+    color: #fa0cbf;
+    font: normal normal normal 18px/22px Montserrat;
+}
+
+.btn-send {
+    width: 296px;
+    height: 68px;
+    border-radius: 40px;
+    background: #3693D6;
+    opacity: 1;
+    font: normal normal normal 25px/30px Montserrat;
+    margin-top: 119px;
+    color: #FFFFFF;
+    border: none;
+}
+
+
+/*------------------------------- footer section  */
+
+.footer {
+    background: #3693D6;
+    color: #FFFFFF;
+    height: 297px;
+    margin-top: 230px;
+}
+
+
+/* footer logo */
+
+.footer .footer-logo {
+    width: 122px;
+    height: 58.17px;
+    background-image: url('../images/footer-logo.png');
+    margin-top: 121px;
+    margin-left: 140px;
+    float: left;
+}
+
+.footer-points {
+    float: left;
+    margin-left: 150px;
+}
+
+.footer-points .footer-titles {
+    margin-top: 73px;
+}
+
+.footer-titles .title {
+    font-size: 32px;
+}
+
+.footer-titles .email-title {
+    margin: 0px 200px 0px 180px;
+}
+
+.footer-points .footer-point-desc {
+    margin-top: 28px;
+}
+
+.footer-points .footer-point-desc div {
+    float: left;
+    width: 264px;
+    height: 87px;
+}
+
+.footer-points .footer-point-desc .email-desc {
+    margin: 0px 20px 0px 30px;
+}
+
+
+/* social-network */
+
+.social-netork {
+    float: left;
+    margin-left: 249px;
+}
+
+.social-network .fb-icon {
+    height: 19.93px;
+    width: 39.86px;
+    margin: 130px 0px 0px 0px;
+}
+
+.social-network .insta-icon {
+    height: 20px;
+    width: 40px;
+    margin: 130px 39.9px 0px 55.91px;
+}
+
+.social-network .youtube-icon {
+    height: 20px;
+    width: 40px;
+    padding: 100px 5px 0px 20px;
+}
+
+
+/* -------------------------------------------------- Common CSS */
+
+.heading-text {
+    padding-top: 100px;
+    text-align: center;
+    font-size: 52px;
+    font-family: Montserrat;
+    color: #FFFFFF;
+}
+
+.blue-text {
+    color: #3693D6;
+}
