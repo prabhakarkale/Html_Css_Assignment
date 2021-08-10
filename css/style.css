@@ -4,11 +4,15 @@
     /* height: 300px; */
 }
 
+
+/* --------------------------- Header Section */
+
 .header {
     background-image: url('../images/hero_image.png');
     background-size: 100% 657px;
     height: 657px;
     background-repeat: no-repeat;
+    /* width: 1920px; */
 }
 
 .header_content {
@@ -71,7 +75,6 @@ nav ul li {
     font: normal normal normal 25px/30px Montserrat;
     letter-spacing: 0px;
     color: #FFFFFF;
-    opacity: 1;
     padding-top: 20px;
 }
 
@@ -171,7 +174,6 @@ nav ul li {
     height: 32.33px;
     float: left;
     background-image: url('../images/arrow.png');
-    border: 1px solid red;
     margin-top: 361px;
     margin-right: 93.53px;
 }
