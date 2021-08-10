@@ -1,7 +1,12 @@
 .container {
     width: 100%;
     margin: 0 auto;
-    /* height: 300px; */
+}
+
+.inner-container {
+    width: 1268px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -12,12 +17,10 @@
     background-size: 100% 657px;
     height: 657px;
     background-repeat: no-repeat;
-    /* width: 1920px; */
 }
 
 .header_content {
     height: 96px;
-    /* width: 1759px; */
     margin-left: 78px;
     margin-right: 83px;
 }
@@ -25,7 +28,6 @@
 .header_content .logo {
     height: 96px;
     width: 124px;
-    float: left;
     margin-top: 20px;
 }
 
@@ -33,8 +35,7 @@
 /* navigation */
 
 .navigation-div {
-    /* margin-left: 867px; */
-    margin-left: 400px;
+    float: right;
 }
 
 nav ul li {
@@ -58,24 +59,25 @@ nav ul li {
     font: normal normal normal 22px/27px Montserrat;
     border-radius: 34px;
     margin-top: 10px;
+    margin-right: 0px;
     border: 2px solid #FFFFFF;
 }
 
 .btn-our-work {
     margin-top: 430px;
     margin-left: 1202px;
+    float: right;
     width: 235px;
     height: 68px;
     background: #3693D6 0% 0% no-repeat padding-box;
     border-radius: 34px;
+    margin-right: 83px;
 }
 
 .btn-our-work p {
     text-align: center;
     font: normal normal normal 25px/30px Montserrat;
-    letter-spacing: 0px;
     color: #FFFFFF;
-    padding-top: 20px;
 }
 
 
@@ -105,11 +107,11 @@ nav ul li {
 
 .pictures .our-work-image {
     height: 392px;
-    width: 419px;
+    width: 418px;
 }
 
 .max-length-image {
-    width: 849px;
+    width: 845px;
     height: 392px;
 }
 
@@ -124,7 +126,6 @@ nav ul li {
     width: 265px;
     height: 265px;
     border-radius: 50%;
-    text-align: center;
     margin-top: 38px;
 }
 
@@ -140,7 +141,7 @@ nav ul li {
 }
 
 .userprofile .picture-dots {
-    padding: 51px 0px 138px 47%;
+    padding: 51px 0px 138px 46%;
 }
 
 .userprofile .picture-dots div {
@@ -186,7 +187,7 @@ nav ul li {
     margin-right: 78px;
 }
 
-.features .arrow-previous img {
+.features .arrow-previous {
     transform: scaleX(-1);
 }
 
@@ -249,16 +250,12 @@ nav ul li {
 
 .send-msg {
     background: #FFFFFF;
-    opacity: 1;
     height: 552px;
     width: 1280px;
     margin-top: 90px;
-    margin-left: 170px;
 }
 
-.send-msg .form {
-    width: 1150px;
-}
+.send-msg .form {}
 
 .form .form-caption {
     font: normal normal normal 40px/50px Montserrat;
@@ -388,7 +385,7 @@ textarea[placeholder] {
 /* -------------------------------------------------- Common CSS */
 
 .heading-text {
-    padding-top: 100px;
+    margin-top: 100px;
     text-align: center;
     font-size: 52px;
     font-family: Montserrat;
