@@ -2,39 +2,37 @@
 
 <head>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat">
 
 </head>
 
-<body style="width: 100%; margin: 0 auto;">
+<body>
     <div class="container">
 
         <!-- Header Section -->
-        <div class="header ">
+        <div class="header">
             <div class="header_content ">
                 <img class="logo " src="images/logo.png " alt=" ">
                 <div class="navigation-div">
                     <nav>
                         <ul>
-                            <li>Home</li>
-                            <li>About</li>
-                            <li style="margin-right: 0px;">Contact</li>
-                            <li class="say-hello ">
-                                <p style="margin-top: 10px;">Say Hello</p>
+                            <li>
+                                <a style="text-decoration:none" href="#">Home</a></li>
+                            <li>
+                                <a href="#">About</a>
                             </li>
+                            <li>
+                                <a href="#">Contact</a>
+                            </li>
+                            <!-- <li class="say-hello "> -->
+                            <button class="say-hello">Say Hello</button>
+                            <!-- </li> -->
                         </ul>
                     </nav>
                 </div>
 
             </div>
-            <div class="btn-our-work ">
-                <p>
-                    Our Work
-                </p>
-            </div>
+            <button class="btn-our-work">Our Work</button>
 
         </div>
 
@@ -88,7 +86,7 @@
                     </div>
                     <div class="feature-title">Reduce Cost</div>
                     <div class="feature-desc">Our unique wireless <br> technology can provide <br> substantial cost benefits <br> when compaired. <br>
-                        <span class="fecture-read-more">Read More</span>
+                        <a href="#" lass="fecture-read-more">Read More</a>
                     </div>
                 </div>
                 <div class="feature">
@@ -139,7 +137,7 @@
         <div class="footer">
             <div class="footer-logo"></div>
             <div class="footer-points">
-                <div class="footer-titles">
+                <div class="footer-titles font-montserrat">
                     <label class="title">Location</label>
                     <label class="title email-title">Email</label>
                     <label class="title">Phone</label>
@@ -160,6 +158,8 @@
 
     </div>
     <!-- container div close -->
+
+
 </body>
 
 </html>

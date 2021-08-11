@@ -1,18 +1,43 @@
+/* -------------------------------------------------- Common CSS */
+
+body {
+    width: 100%;
+    margin: 0 auto;
+}
+
 .container {
     width: 100%;
     margin: 0 auto;
 }
 
 .inner-container {
-    width: 1268px;
+    width: 1280px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.heading-text {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 52px;
+    font-weight: 600;
+    font-family: Montserrat;
+    color: #FFFFFF;
+}
+
+.blue-text {
+    color: #3693D6;
+}
+
+.font-montserrat {
+    font-family: montserrat;
 }
 
 
 /* --------------------------- Header Section */
 
 .header {
+    position: relative;
     background-image: url('../images/hero_image.png');
     background-size: 100% 657px;
     height: 657px;
@@ -20,12 +45,14 @@
 }
 
 .header_content {
+    position: relative;
     height: 96px;
     margin-left: 78px;
     margin-right: 83px;
 }
 
 .header_content .logo {
+    position: absolute;
     height: 96px;
     width: 124px;
     margin-top: 20px;
@@ -40,9 +67,15 @@
 
 nav ul li {
     display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
     margin-right: 128px;
     margin-top: 43px;
-    font: normal normal normal 22px/27px Montserrat;
+    font-size: 22px;
+    font-weight: 27px;
+    font-family: Montserrat;
     text-align: center;
     color: #FFFFFF;
 }
@@ -54,9 +87,10 @@ nav ul li {
     background-color: #FFFFFF;
     width: 199px;
     height: 54px;
-    margin-left: 83px;
     color: #3693D6;
-    font: normal normal normal 22px/27px Montserrat;
+    font-size: 22px;
+    font-weight: 27px;
+    font-family: Montserrat;
     border-radius: 34px;
     margin-top: 10px;
     margin-right: 0px;
@@ -69,22 +103,24 @@ nav ul li {
     float: right;
     width: 235px;
     height: 68px;
-    background: #3693D6 0% 0% no-repeat padding-box;
+    background: #3693D6;
+    background-position: 0% 0%;
+    background-origin: padding-box;
+    background-repeat: no-repeat;
     border-radius: 34px;
     margin-right: 83px;
-}
-
-.btn-our-work p {
-    text-align: center;
-    font: normal normal normal 25px/30px Montserrat;
+    font-size: 25px;
+    font-weight: 30px;
+    font-family: Montserrat;
     color: #FFFFFF;
+    border: 1px solid #3693D6;
 }
 
 
 /* -------------------------------------- Abuout Me Section */
 
 .about-me {
-    background: #3693D6 0% 0% no-repeat padding-box;
+    background: #3693D6;
     background-size: contain;
     margin-top: 0px;
     height: 563px;
@@ -93,7 +129,9 @@ nav ul li {
 
 .about-text {
     text-align: center;
-    font: normal normal normal 42px/60px Montserrat;
+    font-size: 42px;
+    line-height: 60px;
+    font-family: Montserrat;
     color: #FFFFFF;
 }
 
@@ -111,7 +149,7 @@ nav ul li {
 }
 
 .max-length-image {
-    width: 845px;
+    width: 849px;
     height: 392px;
 }
 
@@ -131,13 +169,17 @@ nav ul li {
 
 .userprofile .user-name {
     font-size: 42px;
-    font: normal normal normal 42px/52px Montserrat;
+    font-size: 42px;
+    line-height: 52px;
+    font-family: Montserrat;
     margin-top: 34px;
 }
 
 .userprofile .about-user {
     margin-top: 40px;
-    font: normal normal normal 32px/60px Montserrat;
+    font-size: 32px;
+    line-height: 60px;
+    font-family: Montserrat;
 }
 
 .userprofile .picture-dots {
@@ -153,11 +195,11 @@ nav ul li {
 }
 
 .userprofile .picture-dots .selected {
-    background: #9BC0FF 0% 0% no-repeat padding-box;
+    background: #9BC0FF;
 }
 
 .userprofile .picture-dots .unselected {
-    background: #E2E2E2 0% 0% no-repeat padding-box;
+    background: #E2E2E2;
 }
 
 
@@ -185,9 +227,6 @@ nav ul li {
 
 .featuers .arrow-previous {
     margin-right: 78px;
-}
-
-.features .arrow-previous {
     transform: scaleX(-1);
 }
 
@@ -223,7 +262,10 @@ nav ul li {
 .features .feature-title {
     text-align: center;
     margin-top: 55.91px;
-    font: normal normal bold 30px/63px Lato;
+    font-size: 30px;
+    font-weight: 63px;
+    font-weight: bold;
+    font-family: Lato;
     color: #29313E;
 }
 
@@ -234,15 +276,20 @@ nav ul li {
     margin-right: 19px;
     height: 179px;
     width: 297px;
-    font: normal normal normal 20px/29px Lato;
+    font-size: 20px;
+    font-weight: 29px;
+    font-family: Lato;
     color: #29313E;
 }
 
 .features .fecture-read-more {
     text-align: center;
-    font: normal normal normal 24px/29px Lato;
+    font-size: 24px;
+    font-weight: 29px;
+    font-family: Lato;
     letter-spacing: 0px;
     color: #0098da;
+    text-decoration: none;
 }
 
 
@@ -286,8 +333,9 @@ nav ul li {
 .form input[placeholder],
 textarea[placeholder] {
     padding-left: 30px;
-    color: #fa0cbf;
-    font: normal normal normal 18px/22px Montserrat;
+    font-size: 18px;
+    line-height: 22px;
+    font-family: Montserrat;
 }
 
 .btn-send {
@@ -295,8 +343,9 @@ textarea[placeholder] {
     height: 68px;
     border-radius: 40px;
     background: #3693D6;
-    opacity: 1;
-    font: normal normal normal 25px/30px Montserrat;
+    font-size: 25px;
+    line-height: 30px;
+    font-family: Montserrat;
     margin-top: 119px;
     color: #FFFFFF;
     border: none;
@@ -335,6 +384,7 @@ textarea[placeholder] {
 
 .footer-titles .title {
     font-size: 32px;
+    font-weight: 600;
 }
 
 .footer-titles .email-title {
@@ -379,19 +429,4 @@ textarea[placeholder] {
     height: 20px;
     width: 40px;
     padding: 100px 5px 0px 20px;
-}
-
-
-/* -------------------------------------------------- Common CSS */
-
-.heading-text {
-    margin-top: 100px;
-    text-align: center;
-    font-size: 52px;
-    font-family: Montserrat;
-    color: #FFFFFF;
-}
-
-.blue-text {
-    color: #3693D6;
 }
