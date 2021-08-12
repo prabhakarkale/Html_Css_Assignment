@@ -18,11 +18,9 @@
         
         .heading-text {
             text-align: center;
-            font-weight: 600;
             font-size: 52px;
             line-height: 63px;
             font-family: Montserrat;
-            color: #FFFFFF;
             margin-top: 100px;
         }
         
@@ -30,13 +28,16 @@
             color: #3693D6;
         }
         
+        .white-text {
+            color: #FFFFFF;
+        }
+        
         .font-montserrat {
-            font-family: montserrat;
+            font-family: Montserrat;
         }
         /* --------------------------- Header Section */
         
         .header {
-            position: relative;
             background-image: url('../images/hero_image.png');
             background-size: 100% 657px;
             height: 657px;
@@ -44,14 +45,12 @@
         }
         
         .header_content {
-            position: relative;
             height: 96px;
             margin-left: 78px;
             margin-right: 83px;
         }
         
         .header_content .logo {
-            position: absolute;
             height: 96px;
             width: 124px;
             margin-top: 20px;
@@ -60,6 +59,7 @@
         
         .navigation-div {
             float: right;
+            margin-top: 20px;
         }
         
         nav ul li {
@@ -67,14 +67,11 @@
         }
         
         nav ul li a {
-            text-align: center;
             font-size: 22px;
-            line-height: 27px;
             font-family: Montserrat;
             text-decoration: none;
             color: #FFFFFF;
             margin-right: 128px;
-            margin-top: 43px;
         }
         /* Say Hello btn  */
         
@@ -82,15 +79,11 @@
             width: 199px;
             height: 54px;
             background-color: #FFFFFF;
-            border: 2px solid #FFFFFF;
+            border: none;
             border-radius: 34px;
-            text-align: center;
             font-size: 22px;
-            line-height: 27px;
             font-family: Montserrat;
             color: #3693D6;
-            margin-top: 10px;
-            margin-right: 0px;
         }
         
         .btn-our-work {
@@ -98,15 +91,11 @@
             width: 235px;
             height: 68px;
             background: #3693D6;
-            background-origin: padding-box;
             margin-top: 430px;
             margin-left: 1202px;
-            background-position: 0% 0%;
-            background-origin: padding-box;
             border-radius: 34px;
             text-align: center;
             font-size: 25px;
-            line-height: 30px;
             font-family: Montserrat;
             color: #FFFFFF;
             border: none;
@@ -116,8 +105,6 @@
         
         .about-me {
             background: #3693D6;
-            background-size: contain;
-            margin-top: 0px;
             height: 563px;
             border: 1px solid#3693D6;
         }
@@ -166,7 +153,6 @@
         }
         
         .userprofile .about-user {
-            text-align: center;
             font-size: 32px;
             line-height: 60px;
             font-family: Montserrat;
@@ -252,7 +238,6 @@
             text-align: center;
             margin-top: 55.91px;
             font-size: 30px;
-            font-weight: 63px;
             font-weight: bold;
             font-family: Lato;
             color: #29313E;
@@ -262,12 +247,9 @@
             height: 179px;
             width: 295px;
             font-size: 24px;
-            line-height: 29px;
             text-align: center;
             margin-top: 27px;
             margin-left: 10px;
-            margin-right: 19px;
-            letter-spacing: 0px;
             font-family: Lato;
             color: #29313E;
         }
@@ -275,7 +257,6 @@
         .features .fecture-read-more {
             text-align: center;
             font-size: 24px;
-            font-weight: 29px;
             font-family: Lato;
             letter-spacing: 0px;
             color: #0098da;
@@ -292,10 +273,8 @@
         
         .form .form-caption {
             font-size: 40px;
-            line-height: 50px;
             font-family: Montserrat;
             color: #151D41;
-            text-align: left;
             margin-bottom: 55px;
         }
         
@@ -327,7 +306,6 @@
         textarea[placeholder] {
             padding-left: 30px;
             font-size: 18px;
-            line-height: 22px;
             font-family: Montserrat;
         }
         
@@ -337,21 +315,19 @@
             border-radius: 40px;
             background: #3693D6;
             font-size: 25px;
-            line-height: 30px;
             font-family: Montserrat;
-            /* margin-top: 119px; */
+            margin-top: 80px;
             color: #FFFFFF;
             border: none;
         }
         /*------------------------------- footer section  */
         
         .footer {
-            /* position: absolute; */
             width: 100%;
             background: #3693D6;
             color: #FFFFFF;
             height: 297px;
-            margin-top: 100px;
+            margin-top: 200px;
         }
         /* footer logo */
         
@@ -379,7 +355,6 @@
         .footer-titles .title {
             font-size: 32px;
             font-weight: 600;
-            font-family: Montserrat;
         }
         
         .footer-titles .email-title {
@@ -395,8 +370,6 @@
         
         .footer-points .footer-point-desc div {
             float: left;
-            /* width: 264px;
-    height: 87px; */
         }
         
         .footer-points .footer-point-desc .email-desc {
@@ -412,7 +385,6 @@
         .social-network .fb-icon {
             height: 39.86px;
             width: 19.93px;
-            margin: 130px 0px 0px 0px;
         }
         
         .social-network .insta-icon {
