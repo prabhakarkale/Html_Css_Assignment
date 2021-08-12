@@ -37,20 +37,20 @@
         }
         /* --------------------------- Header Section */
         
-        .header {
+        .banner {
             background-image: url('../images/hero_image.png');
             background-size: 100% 657px;
             height: 657px;
             background-repeat: no-repeat;
         }
         
-        .header_content {
+        .header {
             height: 96px;
             margin-left: 78px;
             margin-right: 83px;
         }
         
-        .header_content .logo {
+        .header .logo {
             height: 96px;
             width: 124px;
             margin-top: 20px;
@@ -267,7 +267,6 @@
         .send-msg {
             background: #FFFFFF;
             height: 552px;
-            /* width: 1280px; */
             margin-top: 90px;
         }
         
@@ -280,12 +279,12 @@
         
         .form input {
             width: 620px;
+            height: 60px;
             margin: 15px;
             margin-left: 0px;
             margin-right: 40px;
             margin-bottom: 50px;
             border-radius: 5px;
-            height: 60px;
             border: 1px solid #151D41;
         }
         
@@ -296,7 +295,7 @@
         .message-field {
             float: right;
             width: 620px;
-            height: 310px;
+            height: 280px;
             margin-bottom: 40px;
             border: 1px solid #151D41;
             border-radius: 5px;
@@ -323,7 +322,6 @@
         /*------------------------------- footer section  */
         
         .footer {
-            width: 100%;
             background: #3693D6;
             color: #FFFFFF;
             height: 297px;
@@ -344,12 +342,11 @@
             float: left;
             margin-left: 214px;
             margin-top: 73px;
-            /* width: 841px; */
             height: auto;
         }
         
         .footer-points .footer-titles {
-            /* margin-top: 73px; */
+            font-family: Montserrat;
         }
         
         .footer-titles .title {
