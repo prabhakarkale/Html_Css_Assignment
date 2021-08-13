@@ -1,403 +1,427 @@
-    /* -------------------------------------------------- Common CSS */
-    
-    body {
-        width: 100%;
-        margin: 0 auto;
-    }
-    
-    .container {
-        width: 100%;
-        margin: 0 auto;
-    }
-    
-    .inner-container {
-        width: 1280px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    
-    .heading-text {
-        text-align: center;
-        font-size: 52px;
-        line-height: 63px;
-        font-family: Montserrat;
-        font-weight: 600;
-        margin-top: 100px;
-    }
-    
-    .blue-text {
-        color: #3693D6;
-    }
-    
-    .white-text {
-        color: #FFFFFF;
-    }
-    
-    .font-montserrat {
-        font-family: Montserrat;
-    }
-    /* --------------------------- Header Section */
-    
-    .banner {
-        background-image: url('../images/hero_image.png');
-        background-size: 100% 657px;
-        height: 657px;
-        background-repeat: no-repeat;
-    }
-    
-    .header {
-        height: 96px;
-        margin-left: 78px;
-        margin-right: 83px;
-    }
-    
-    .header .logo {
-        height: 96px;
-        width: 124px;
-        margin-top: 20px;
-        float: left;
-    }
-    /* navigation */
-    
-    .navigation-div {
-        float: right;
-        margin-top: 20px;
-    }
-    
-    nav ul li {
-        display: inline-block;
-    }
-    
-    nav ul li a {
-        font-size: 22px;
-        font-family: Montserrat;
-        text-decoration: none;
-        color: #FFFFFF;
-        margin-right: 128px;
-    }
-    /* Say Hello btn  */
-    
-    .say-hello {
-        width: 199px;
-        height: 54px;
-        background-color: #FFFFFF;
-        border: none;
-        border-radius: 34px;
-        font-size: 22px;
-        font-family: Montserrat;
-        color: #3693D6;
-    }
-    
-    .btn-our-work {
-        float: right;
-        width: 235px;
-        height: 68px;
-        background: #3693D6;
-        margin-top: 430px;
-        margin-left: 1202px;
-        border-radius: 34px;
-        text-align: center;
-        font-size: 25px;
-        font-family: Montserrat;
-        color: #FFFFFF;
-        border: none;
-        margin-right: 83px;
-    }
-    /* -------------------------------------- Abuout Me Section */
-    
-    .about-me {
-        background: #3693D6;
-        height: 563px;
-        border: 1px solid#3693D6;
-    }
-    
-    .about-text {
-        text-align: center;
-        font-size: 42px;
-        line-height: 60px;
-        font-family: Montserrat;
-        color: #FFFFFF;
-    }
-    /* ------------------------------------------- Our Work section */
-    
-    .pictures {
-        margin-top: 108px;
-        text-align: center;
-    }
-    
-    .pictures .our-work-image {
-        height: 392px;
-        width: 418px;
-    }
-    
-    .max-length-image {
-        width: 849px;
-        height: 392px;
-    }
-    /* -------------------------------------------------- Testimonial section */
-    
-    .userprofile {
-        text-align: center;
-    }
-    
-    .profile-image {
-        width: 265px;
-        height: 265px;
-        border-radius: 50%;
-        margin-top: 38px;
-    }
-    
-    .userprofile .user-name {
-        font-size: 42px;
-        line-height: 52px;
-        font-family: Montserrat;
-        margin-top: 34px;
-    }
-    
-    .userprofile .about-user {
-        font-size: 32px;
-        line-height: 60px;
-        font-family: Montserrat;
-        width: 812px;
-        margin: auto;
-        margin-top: 40px;
-    }
-    
-    .userprofile .picture-dots {
-        margin: 51px 0px 138px 46%;
-    }
-    
-    .userprofile .picture-dots div {
-        height: 26px;
-        width: 26px;
-        float: left;
-        margin-left: 13px;
-        border-radius: 50%;
-    }
-    
-    .userprofile .picture-dots .selected {
-        background: #9BC0FF;
-    }
-    
-    .userprofile .picture-dots .unselected {
-        background: #E2E2E2;
-    }
-    /* ------------------------ Features section */
-    
-    .features-info {
-        background: #3693D6;
-        height: 754px;
-        margin-top: 138px;
-    }
-    
-    .features-info .features {
-        margin-left: 78px;
-    }
-    
-    .arrow {
-        margin-top: 361px;
-    }
-    
-    .features .arrow-previous {
-        width: 21.47px;
-        height: 32.33px;
-        float: left;
-        background-image: url('../images/arrow.png');
-        margin-right: 93.53px;
-        transform: scaleX(-1);
-    }
-    
-    .features .arrow-next {
-        width: 21.47px;
-        height: 32.33px;
-        background-image: url('../images/arrow.png');
-        float: right;
-        margin-right: 83px;
-    }
-    
-    .features .feature {
-        width: 336px;
-        height: 554px;
-        float: left;
-        background-color: #FFF;
-        border-radius: 5px;
-        margin-left: 60px;
-        margin-top: 100px;
-    }
-    
-    .features .first-feature {
-        margin-left: 0px;
-    }
-    
-    .features .feature img {
-        height: 134.74px;
-        width: 176.85px;
-        margin-top: 77.49px;
-        margin-left: 79.34px;
-    }
-    
-    .features .feature-title {
-        text-align: center;
-        margin-top: 55.91px;
-        font-size: 30px;
-        font-weight: bold;
-        font-family: Lato;
-        color: #29313E;
-    }
-    
-    .features .feature-desc {
-        height: 179px;
-        width: 295px;
-        font-size: 24px;
-        text-align: center;
-        margin-top: 27px;
-        margin-left: 10px;
-        font-family: Lato;
-        color: #29313E;
-    }
-    
-    .features .fecture-read-more {
-        text-align: center;
-        font-size: 24px;
-        font-family: Lato;
-        letter-spacing: 0px;
-        color: #0098da;
-        text-decoration: none;
-    }
-    /* --------------------------------- Send Message */
-    
-    .send-msg {
-        position: relative;
-        height: 552px;
-        margin-top: 90px;
-        /* border: 1px solid red; */
-    }
-    
-    .form-caption {
-        font-size: 40px;
-        font-family: Montserrat;
-        color: #151D41;
-        margin-bottom: 55px;
-    }
-    
-    .send-msg input {
-        width: 620px;
-        height: 60px;
-        margin-bottom: 50px;
-        border-radius: 5px;
-        border: 1px solid #151D41;
-        float: left;
-    }
-    
-    .send-msg .input-email {
-        margin-bottom: 0px;
-    }
-    
-    .message-field {
-        top: 0px;
-        right: 5px;
-        float: right;
-        width: 620px;
-        height: 280px;
-        margin-bottom: 40px;
-        border: 1px solid #151D41;
-        border-radius: 5px;
-        resize: none;
-    }
-    
-    .send-msg input[placeholder],
-    textarea[placeholder] {
-        padding-left: 30px;
-        font-size: 18px;
-        font-family: Montserrat;
-    }
-    
-    .btn-send {
-        width: 296px;
-        height: 68px;
-        border-radius: 40px;
-        background: #3693D6;
-        font-size: 25px;
-        font-family: Montserrat;
-        margin-top: 80px;
-        color: #FFFFFF;
-        border: none;
-    }
-    /*------------------------------- footer section  */
-    
-    .footer {
-        background: #3693D6;
-        color: #FFFFFF;
-        height: 297px;
-        margin-top: 130px;
-    }
-    /* footer logo */
-    
-    .footer .footer-logo {
-        width: 122px;
-        height: 58.17px;
-        background-image: url('../images/footer-logo.png');
-        margin-top: 121px;
-        margin-left: 140px;
-        float: left;
-    }
-    
-    .footer-points {
-        float: left;
-        margin-left: 214px;
-        /* margin-left: auto; */
-        margin-right: auto;
-        margin-top: 73px;
-        height: auto;
-    }
-    
-    .footer-points .footer-titles {
-        font-family: Montserrat;
-    }
-    
-    .footer-titles .title {
-        font-size: 32px;
-        font-weight: 600;
-    }
-    
-    .footer-titles .email-title {
-        margin: 0px 250px 0px 202px;
-    }
-    
-    .footer-points .footer-point-desc {
-        margin-top: 28px;
-        font-size: 22px;
-        line-height: 30px;
-        font-family: Montserrat;
-    }
-    
-    .footer-points .footer-point-desc div {
-        float: left;
-    }
-    
-    .footer-points .footer-point-desc .email-desc {
-        margin: 0px 110px 0px 82px;
-    }
-    /* social-network */
-    
-    .social-network {
-        float: right;
-        margin-right: 140px;
-    }
-    
-    .social-network .fb-icon {
-        height: 39.86px;
-        width: 19.93px;
-    }
-    
-    .social-network .insta-icon {
-        height: 42.55px;
-        width: 42.55px;
-        margin: 130px 39.9px 0px 55.91px;
-    }
-    
-    .social-network .youtube-icon {
-        height: 38.03px;
-        width: 55.32px;
-        padding: 100px 5px 0px 20px;
-    }
+body {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.inner-container {
+    width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.heading-text {
+    text-align: center;
+    font-size: 52px;
+    line-height: 63px;
+    font-family: Montserrat;
+    font-weight: 600;
+    margin-top: 100px;
+}
+
+.blue-text {
+    color: #3693D6;
+}
+
+.white-text {
+    color: #FFFFFF;
+}
+
+.banner {
+    top: 0px;
+    background-image: url('../images/hero_image.png');
+    background-size: 100% 657px;
+    height: 657px;
+    background-repeat: no-repeat;
+}
+
+.header {
+    position: absolute;
+    width: 100%;
+    height: 96px;
+    top: 20px;
+}
+
+.header .logo {
+    position: relative;
+    float: left;
+    left: 78px;
+}
+
+.header .navigation-div {
+    float: right;
+}
+
+nav ul a {
+    display: inline-block;
+    font-size: 22px;
+    font-family: Montserrat;
+    text-decoration: none;
+    color: #FFFFFF;
+    margin-right: 128px;
+}
+
+.say-hello {
+    width: 199px;
+    height: 54px;
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 34px;
+    font-size: 22px;
+    font-family: Montserrat;
+    color: #3693D6;
+    margin-right: 83px;
+}
+
+.btn-our-work {
+    position: absolute;
+    clear: both;
+    float: right;
+    top: 527px;
+    right: 83px;
+    width: 235px;
+    height: 68px;
+    background: #3693D6;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 34px;
+    text-align: center;
+    font-size: 25px;
+    font-family: Montserrat;
+}
+
+
+/* about me section */
+
+.about-me {
+    position: relative;
+    background: #3693D6;
+    height: 563px;
+    border: 1px solid #3693D6;
+}
+
+.about-text {
+    text-align: center;
+    font-size: 42px;
+    line-height: 60px;
+    font-family: Montserrat;
+    color: #FFFFFF;
+}
+
+
+/* our work section */
+
+.pictures {
+    margin-top: 108px;
+    text-align: center;
+}
+
+.pictures .our-work-image {
+    height: 392px;
+    width: 418px;
+}
+
+.max-length-image {
+    width: 849px;
+    height: 392px;
+}
+
+
+/* -------------------------------------------------- Testimonial section */
+
+.testimonial {
+    position: relative;
+}
+
+.userprofile {
+    text-align: center;
+}
+
+.profile-image {
+    width: 265px;
+    height: 265px;
+    border-radius: 50%;
+    margin-top: 38px;
+}
+
+.userprofile .user-name {
+    font-size: 42px;
+    line-height: 52px;
+    font-family: Montserrat;
+    margin-top: 34px;
+}
+
+.userprofile .about-user {
+    font-size: 32px;
+    line-height: 60px;
+    font-family: Montserrat;
+    width: 812px;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.userprofile .picture-dots {
+    margin: 51px 0px 138px 46%;
+}
+
+.userprofile .picture-dots div {
+    height: 26px;
+    width: 26px;
+    float: left;
+    margin-left: 13px;
+    border-radius: 50%;
+}
+
+.userprofile .picture-dots .selected {
+    background: #9BC0FF;
+}
+
+.userprofile .picture-dots .unselected {
+    background: #E2E2E2;
+}
+
+
+/* ------------------------ Features section */
+
+.features-info {
+    position: relative;
+    clear: both;
+    background: #3693D6;
+    height: 754px;
+    margin-top: 238px;
+}
+
+.features-info .features {
+    margin-left: 78px;
+}
+
+.arrow {
+    position: relative;
+    top: 361px;
+}
+
+.features .arrow-previous {
+    width: 21.47px;
+    height: 32.33px;
+    float: left;
+    background-image: url('../images/arrow.png');
+    margin-right: 93.53px;
+    transform: scaleX(-1);
+}
+
+.features .arrow-next {
+    width: 21.47px;
+    height: 32.33px;
+    background-image: url('../images/arrow.png');
+    float: right;
+    right: 83px;
+}
+
+.features .feature {
+    width: 336px;
+    height: 554px;
+    float: left;
+    background-color: #FFF;
+    border-radius: 5px;
+    margin-right: 60px;
+    margin-top: 100px;
+}
+
+.features .first-feature {
+    margin-left: 0px;
+}
+
+.features .feature img {
+    height: 134.74px;
+    width: 176.85px;
+    margin-top: 77.49px;
+    margin-left: 79.34px;
+}
+
+.features .feature-title {
+    text-align: center;
+    margin-top: 55.91px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Lato;
+    color: #29313E;
+}
+
+.features .feature-desc {
+    height: 179px;
+    width: 295px;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 27px;
+    margin-left: 10px;
+    font-family: Lato;
+    color: #29313E;
+}
+
+.features .fecture-read-more {
+    text-align: center;
+    font-size: 24px;
+    font-family: Lato;
+    letter-spacing: 0px;
+    color: #0098da;
+    text-decoration: none;
+}
+
+
+/* --------------------------------- Send Message */
+
+.send-msg {
+    position: relative;
+    height: 552px;
+    margin-top: 90px;
+}
+
+.form-caption {
+    font-size: 40px;
+    font-family: Montserrat;
+    font-weight: 600;
+    color: #151D41;
+    margin-bottom: 55px;
+}
+
+.send-msg .box1 {
+    position: relative;
+    width: 620px;
+    float: left;
+}
+
+.send-msg .box2 {
+    left: 20px;
+    width: 620px;
+    float: left;
+}
+
+.send-msg input {
+    width: 620px;
+    height: 60px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+    border: 1px solid #151D41;
+    float: left;
+}
+
+.send-msg .input-email {
+    margin-bottom: 0px;
+}
+
+.message-field {
+    top: 0px;
+    right: 5px;
+    float: right;
+    width: 620px;
+    height: 280px;
+    margin-bottom: 40px;
+    border: 1px solid #151D41;
+    border-radius: 5px;
+    resize: none;
+}
+
+.send-msg input[placeholder],
+textarea[placeholder] {
+    padding-left: 30px;
+    font-size: 18px;
+    font-family: Montserrat;
+}
+
+.btn-send-div {
+    clear: both;
+}
+
+.btn-send {
+    width: 296px;
+    height: 68px;
+    border-radius: 40px;
+    background: #3693D6;
+    font-size: 25px;
+    font-family: Montserrat;
+    margin-top: 80px;
+    color: #FFFFFF;
+    border: none;
+}
+
+
+/*------------------------------- footer section  */
+
+.footer {
+    position: relative;
+    background: #3693D6;
+    color: #FFFFFF;
+    height: 297px;
+    top: 130px;
+}
+
+
+/* footer logo */
+
+.footer .footer-logo {
+    position: relative;
+    width: 122px;
+    height: 58.17px;
+    background-image: url('../images/footer-logo.png');
+    top: 121px;
+    left: 140px;
+    float: left;
+}
+
+.footer-points {
+    position: relative;
+    float: left;
+    left: 300px;
+    top: 73px;
+}
+
+.footer-points .points {
+    width: 264px;
+    float: left;
+    margin-right: 70px;
+}
+
+.points .point-title {
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.points .desc {
+    font-family: Montserrat;
+    font-size: 22px;
+    line-height: 30px;
+}
+
+
+/* social-network */
+
+.social-network {
+    position: relative;
+    top: 130px;
+    float: right;
+    right: 140px;
+}
+
+.social-network a {
+    margin-left: 50px;
+}
+
+.social-network .fb-icon {
+    height: 39px;
+    width: 19px;
+}
+
+.social-network .insta-icon {
+    height: 42px;
+    width: 42px;
+}
+
+.social-network .youtube-icon {
+    height: 38px;
+    width: 55px;
+}
